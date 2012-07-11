@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<title>Home |Virgin</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css"/>
+	<link rel='stylesheet' type='text/css' href='css/customMarkdown.css'/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel='stylesheet' type='text/css' href="css/jquery.lightbox-0.5.css"/>
+	<script type='text/javascript' src="js/jquery-1.7.2.min.js"/></script>
+	<script type='text/javascript' src="js/bootstrap.min.js"/></script>
+	<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+	<script type='text/javascript' src='js/jquery.lightbox-0.5.min.js'></script>
+	<script type='text/javascript' src='js/jquery.lightbox-0.5.pack.js'></script>
+	<script type="text/javascript" src="js/showdown.js"></script>
+	<script type="text/javascript" src="js/google-jsapi.js"></script>
+	<script type='text/javascript'>
+		google.load("visualization", "1", {packages:["corechart","gauge"]});
+	</script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+
+</head>
+<body>
+
+<div class='frontLayer'>
+<header class="borBox row-fluid pat-lightwool">
+	<div class="span2 pull-left">
+		<figure class="logo btn btn-success">Virgin</figure>
+	</div>
+	<div class="span7 pull-left">
+		<br/>
+	</div>
+	<div class="span3 pull-right">
+		<div class="loginBox">
+			<button class="btn btn-info droppy-toggle right" type='button' data-toggle='droppy'><i class='icon-white icon-user'></i> User&nbsp;&nbsp;<b class='caret'></b></button>
+			<ul class="dropdown-menu droppy-menu" id="uOpsL">
+				<li><a href="#"><i class='icon-user'></i> Profile</a></li>
+				<li><a href="#" data-target='settingsModal'><i class='icon-cog'></i> Settings</a></li>
+				<li class='divider'></li>
+				<li><a href="#" data-target='loginModal'><i class='icon-share-alt'></i> Log In</a></li>
+				<li><a href="#" data-target='registerModal'><i class='icon-bookmark'></i> Register</a></li>
+				<li class='divider'></li>
+				<li><a href="#"><i class='icon-question-sign'></i> Help</a></li>
+			</ul>
+		</div>
+	</div>
+
+	
+</header>
+<section class="subHead">
+	<section class="row-fluid subHeadInner borBox">
+		<div class='span12'>
+ 
+			<h3 class='pull-left welcome'>Welcome</h3>
+			<figure class='menuButton btn sharp btn-success'><i class='icon-white icon-th-list'></i> Menu</figure>
+			<div class='form-horizontal centerOnPage' >
+		       <div class="input-append">
+		            <input class="span4fix" id="searchInput" data-provide='typeahead' placeholder="Super Search" data-control='home' size="16" type="text"><button class='btn btn-info droppy-toggle sOpsB' data-toggle='droppy' type='button'>Designs&nbsp;&nbsp;<b class='caret'></b></button><ul class='dropdown-menu droppy-menu' id="sOpsL">
+		            	<li><a href="#"><i class='icon-fire'></i> Designs</a></li>
+					    <li><a href="#"><i class='icon-eye-open'></i> Apps</a></li>
+      					<li><a href="#"><i class='icon-eye-close'></i> Prototypes</a></li>
+      					<li class="divider"></li>
+      					<li><a href="#"><i class='icon-user'></i> Members</a></li>
+      					<li class='divider'></li>
+      					<li><a href="#"><i class='icon-align-justify'></i> Articles</a></li>
+      				</ul><button class="btn btn-info" type="button"><i class='icon-white icon-search'></i></button>
+		       	</div>
+	        </div>
+			<ul class="bcrumbs pull-right">
+				<li>Virgin</li>
+				<li class="divdot">.</li>
+				<li>Jobs</li>
+			</ul>
+		</div>
+	</section>
+</section>
+<section class="container-fluid" id="mainContainer">
+	<div class="row-fluid">
+		<div class="span2 sideBar">
+			<ul>
+				<li data-link="home" class="active"><figure><i class='icon-home'></i> <div class='menuText'>Home</div></figure></li>
+				<li data-link="features"><figure><i class='icon-star'></i> <div class='menuText'>Features</div></figure></li>
+				<li data-link="dashboard"><figure><i class='icon-new-dashboard'></i> <div class='menuText'>Dashboard</div></figure></li>
+				<hr/>
+				<li data-link='portfolio'><figure><i class='icon-th-large'></i> <div class='menuText'>Portfolio</div></figure></li>
+				<li data-link="Blog"><figure><i class='icon-th-list'></i> <div class='menuText'>Blog</div></figure></li>
+				<hr/>
+				<li data-link="none" class='dropper'>
+					<figure><i class='icon-th'></i> <div class='menuText'>Gallery&nbsp;›</div></figure>
+					<ul class='subSide'>
+						<li data-target='photos'><i class='icon-camera'></i> <div class='menuText'>Photos</div></li>
+						<li data-target='videos'><i class='icon-facetime-video'></i> <div class='menuText'>Videos</div></li>
+						<li data-target='books'><i class='icon-book'></i> <div class='menuText'>Books</div></li>
+					</ul>
+				</li>
+				<!-- THIS WILL ALSO BE ENABLED IN NEXT VERSION -->
+				<!-- <li data-link="social"><figure><i class='icon-comment'></i> <div class='menuText'>Social</div></figure></li>		 -->					
+				<hr/>
+				<!-- THIS WILL BE ENABLED IN NEXT VERSION, ITS NOT OF MUCH IMPORTANCE THOUGH... JUST A LIST OF FEATURES IN THIS THEME -->
+				<!--li data-link="none" class='dropper'>
+					<figure><i class='icon-gift'></i> <div class='menuText'>Specials&nbsp;›</div></figure>
+					<ul class='subSide'>
+						<li data-target='quicksand'><i class='icon-star-empty'></i> <div class='menuText'>Quicksand</div></li>
+						<li data-target='boxwidget'><i class='icon-star-empty'></i> <div class='menuText'>Box-Widget</div></li>
+						<li data-target='googlecharts'><i class='icon-star-empty'></i> <div class='menuText'>Google Charts</div></li>
+						<li data-target='flotr2charts'><i class='icon-star-empty'></i> <div class='menuText'>Flotr2 Charts</div></li>
+						<li data-target='scrolleffects'><i class='icon-star-empty'></i> <div class='menuText'>Scroll Effects</div></li>
+						<li data-target='additionalfeatures'><i class='icon-star-empty'></i> <div class='menuText'>Additional Features</div></li>
+
+					</ul>
+				</li>		
+				<hr/-->
+
+				<li data-link="members"><figure><i class='icon-new-group'></i> <div class='menuText'>Members</div></figure></li>
+				<li data-link="contact"><figure><i class='icon-envelope'></i> <div class='menuText'>Contact</div></figure></li>
+			</ul>
+		</div>
+		<div class="span10 content borBox">
+			
+		</div>
+	</div>
+</section>
+<footer>
+	<div class="container-fluid" id="footMain">
+		<div class="row-fluid">
+			<div class="span6">
+				<div class="pull-left">
+					<h6>Press ` or tilde key to access command line</h6>
+				</div>
+			</div>
+			<div class="span6">
+				<div class="pull-right">
+					<h6>Company Name Here</h6>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+</div>
+
+
+ <!-- ##### MODALS #####- -->
+<div class='modal fade hide' id="thisModal">
+
+</div>
+
+
+<!-- ### BACKGROUND DIV -->
+<div class='bg'>
+</div>
+
+<div class='commandWindow hide'>
+	<div class='commandWindow-inner'>
+		<h2 class='hBig'>CommandLine</h2><br/>
+		<div class='form sharp form-horizontal'>
+			<div class='input-append row-fluid'>
+				<input class='sharp span9' id="commandInput" placeholder='Enter Command' type='text'/><button class='btn btn-info'>Go</button>
+			</div>
+		</div>
+		<br/>
+		<div class='alert fade in'>
+			<a class='close' data-dismiss='alert'>&times;</a>
+			<p>Type <code> goto("dashboard") or goto("portfolio") </code></p>
+
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>

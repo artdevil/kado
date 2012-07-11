@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PayloadInfo version="3.0.106.0" md5="32a8353c9250eaf948f7cd58e8063dad"><BuildInfo>
+    <Property name="Created">2010-01-14 11:28:44.217000</Property>
+    <Property name="TargetName">AdobeLinguisticsAll</Property>
+    <Property name="ProcessorFamily">All</Property>
+  </BuildInfo><InstallerProperties>
+    <Property name="payloadType">SQLite</Property>
+    <Property name="AdobeCode">{6C7D437A-D2E9-4FE9-A4D9-A6329860835C}</Property>
+    <Property name="ProductName">Adobe Linguistics CS5</Property>
+    <Property name="ProductVersion">5.0.0</Property>
+  </InstallerProperties><Languages languageIndependent="1"/><Satisfies>
+    <ProductInfo>
+		<Family>CoreTech</Family>
+		<ProductName>Adobe Linguistics CS5</ProductName>
+	<ProductVersion>5.0.0</ProductVersion>
+    </ProductInfo>
+  </Satisfies><AddRemoveInfo>
+    <DisplayVersion>
+      <Value lang="sq_AL">5.0.0</Value>
+      <Value lang="ar_AE">5.0.0</Value>
+      <Value lang="be_BY">5.0.0</Value>
+      <Value lang="bg_BG">5.0.0</Value>
+      <Value lang="ca_ES">5.0.0</Value>
+      <Value lang="zh_CN">5.0.0</Value>
+      <Value lang="zh_TW">5.0.0</Value>
+      <Value lang="hr_HR">5.0.0</Value>
+      <Value lang="cs_CZ">5.0.0</Value>
+      <Value lang="da_DK">5.0.0</Value>
+      <Value lang="nl_NL">5.0.0</Value>
+      <Value lang="en_XC">5.0.0</Value>
+      <Value lang="en_XM">5.0.0</Value>
+      <Value lang="en_GB">5.0.0</Value>
+      <Value lang="en_US">5.0.0</Value>
+      <Value lang="et_EE">5.0.0</Value>
+      <Value lang="fi_FI">5.0.0</Value>
+      <Value lang="fr_FR">5.0.0</Value>
+      <Value lang="fr_XM">5.0.0</Value>
+      <Value lang="de_DE">5.0.0</Value>
+      <Value lang="el_GR">5.0.0</Value>
+      <Value lang="he_IL">5.0.0</Value>
+      <Value lang="hu_HU">5.0.0</Value>
+      <Value lang="hi_IN">5.0.0</Value>
+      <Value lang="is_IS">5.0.0</Value>
+      <Value lang="it_IT">5.0.0</Value>
+      <Value lang="ja_JP">5.0.0</Value>
+      <Value lang="ko_KR">5.0.0</Value>
+      <Value lang="lv_LV">5.0.0</Value>
+      <Value lang="lt_LT">5.0.0</Value>
+      <Value lang="mk_MK">5.0.0</Value>
+      <Value lang="nn_NO">5.0.0</Value>
+      <Value lang="no_NO">5.0.0</Value>
+      <Value lang="nb_NO">5.0.0</Value>
+      <Value lang="pl_PL">5.0.0</Value>
+      <Value lang="pt_BR">5.0.0</Value>
+      <Value lang="ro_RO">5.0.0</Value>
+      <Value lang="ru_RU">5.0.0</Value>
+      <Value lang="sh_YU">5.0.0</Value>
+      <Value lang="sk_SK">5.0.0</Value>
+      <Value lang="sl_SI">5.0.0</Value>
+      <Value lang="es_QM">5.0.0</Value>
+      <Value lang="es_ES">5.0.0</Value>
+      <Value lang="sv_SE">5.0.0</Value>
+      <Value lang="th_TH">5.0.0</Value>
+      <Value lang="tr_TR">5.0.0</Value>
+      <Value lang="uk_UA">5.0.0</Value>
+      <Value lang="vi_VN">5.0.0</Value>
+      <Value lang="fr_CA">5.0.0</Value>
+      <Value lang="es_MX">5.0.0</Value>
+    </DisplayVersion>
+    <DisplayName>
+      <Value lang="sq_AL">Adobe Linguistics CS5</Value>
+      <Value lang="ar_AE">Adobe Linguistics CS5</Value>
+      <Value lang="be_BY">Adobe Linguistics CS5</Value>
+      <Value lang="bg_BG">Adobe Linguistics CS5</Value>
+      <Value lang="ca_ES">Adobe Linguistics CS5</Value>
+      <Value lang="zh_CN">Adobe Linguistics CS5</Value>
+      <Value lang="zh_TW">Adobe Linguistics CS5</Value>
+      <Value lang="hr_HR">Adobe Linguistics CS5</Value>
+      <Value lang="cs_CZ">Adobe Linguistics CS5</Value>
+      <Value lang="da_DK">Adobe Linguistics CS5</Value>
+      <Value lang="nl_NL">Adobe Linguistics CS5</Value>
+      <Value lang="en_XC">Adobe Linguistics CS5</Value>
+      <Value lang="en_XM">Adobe Linguistics CS5</Value>
+      <Value lang="en_GB">Adobe Linguistics CS5</Value>
+      <Value lang="en_US">Adobe Linguistics CS5</Value>
+      <Value lang="et_EE">Adobe Linguistics CS5</Value>
+      <Value lang="fi_FI">Adobe Linguistics CS5</Value>
+      <Value lang="fr_FR">Adobe Linguistics CS5</Value>
+      <Value lang="fr_XM">Adobe Linguistics CS5</Value>
+      <Value lang="de_DE">Adobe Linguistics CS5</Value>
+      <Value lang="el_GR">Adobe Linguistics CS5</Value>
+      <Value lang="he_IL">Adobe Linguistics CS5</Value>
+      <Value lang="hu_HU">Adobe Linguistics CS5</Value>
+      <Value lang="hi_IN">Adobe Linguistics CS5</Value>
+      <Value lang="is_IS">Adobe Linguistics CS5</Value>
+      <Value lang="it_IT">Adobe Linguistics CS5</Value>
+      <Value lang="ja_JP">Adobe Linguistics CS5</Value>
+      <Value lang="ko_KR">Adobe Linguistics CS5</Value>
+      <Value lang="lv_LV">Adobe Linguistics CS5</Value>
+      <Value lang="lt_LT">Adobe Linguistics CS5</Value>
+      <Value lang="mk_MK">Adobe Linguistics CS5</Value>
+      <Value lang="nn_NO">Adobe Linguistics CS5</Value>
+      <Value lang="no_NO">Adobe Linguistics CS5</Value>
+      <Value lang="nb_NO">Adobe Linguistics CS5</Value>
+      <Value lang="pl_PL">Adobe Linguistics CS5</Value>
+      <Value lang="pt_BR">Adobe Linguistics CS5</Value>
+      <Value lang="ro_RO">Adobe Linguistics CS5</Value>
+      <Value lang="ru_RU">Adobe Linguistics CS5</Value>
+      <Value lang="sh_YU">Adobe Linguistics CS5</Value>
+      <Value lang="sk_SK">Adobe Linguistics CS5</Value>
+      <Value lang="sl_SI">Adobe Linguistics CS5</Value>
+      <Value lang="es_QM">Adobe Linguistics CS5</Value>
+      <Value lang="es_ES">Adobe Linguistics CS5</Value>
+      <Value lang="sv_SE">Adobe Linguistics CS5</Value>
+      <Value lang="th_TH">Adobe Linguistics CS5</Value>
+      <Value lang="tr_TR">Adobe Linguistics CS5</Value>
+      <Value lang="uk_UA">Adobe Linguistics CS5</Value>
+      <Value lang="vi_VN">Adobe Linguistics CS5</Value>
+      <Value lang="fr_CA">Adobe Linguistics CS5</Value>
+      <Value lang="es_MX">Adobe Linguistics CS5</Value>
+    </DisplayName>
+  </AddRemoveInfo></PayloadInfo>

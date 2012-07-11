@@ -1,0 +1,77 @@
+{
+  "sampleuser1": {
+    "memKey": "sampleuser1",
+    "name": "Sample User 1",
+    "post": "CEO",
+    "contact": {
+      "email": "example@domain.com",
+      "tel": "9876-543-210",
+      "resume": "sampleuser1.pdf"
+    },
+    "socialLinks": {
+      "fb": "https://www.facebook.com/sampleuser1",
+      "twitter": "http://www.twitter.com/sampleuser2",
+      "gplus": "https://plus.google.com/sampleuser3"
+    },
+    "projectsinterns": {
+      "Project 1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt, turpis quis accumsan consectetur, neque orci suscipit massa, vel pulvinar dolor dui id purus ",
+      "Project 2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt, turpis quis accumsan consectetur, neque orci suscipit massa, vel pulvinar dolor dui id purus ",
+      "Project 3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt, turpis quis accumsan consectetur, neque orci suscipit massa, vel pulvinar dolor dui id purus"
+    },
+    "skills": {
+      "os": [
+        "Ubuntu Linux (9.04-12.04)",
+        "Windows XP,Vista,7,8",
+        "MAC OSX 10.6 (Snow Leopard)"
+      ],
+      "langs": [
+        "PHP",
+        "Javascript",
+        "HTML5",
+        "CSS3",
+        "Python",
+        "C++",
+        "C#",
+        "Visual Basic",
+        "Visual C#",
+        "Ruby",
+        "Ruby on Rails",
+        "Lua",
+        "MySQL",
+        "phpMyAdmin",
+        "Apache"
+      ],
+      "softs": [
+        "Adobe Photoshop CS5.5",
+        "Adobe Illustrator CS5.5",
+        "Adobe Dreamweaver CS5.5",
+        "Adobe Flash CS5.5",
+        "Microsoft Visual Studio",
+        "Microsoft Expression Studio",
+        "Labview (under Training)",
+        "PyMOL",
+        "Hex",
+        "AutoDock",
+        "SwissModeller"
+      ]
+    },
+    "aim": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt, turpis quis accumsan consectetur, neque orci suscipit massa, vel pulvinar dolor dui id purus. Ut faucibus massa et est vulputate ut tincidunt elit cursus. Donec felis tellus, ornare sed placerat eget, fermentum imperdiet lectus. Maecenas neque eros, posuere et mollis non, vestibulum nec sapien. Vestibulum molestie tellus ornare magna aliquam ac consequat metus pellentesque. Duis egestas sagittis sagittis. Morbi gravida mollis scelerisque. In a enim nec mi tincidunt pulvinar. Nam semper, quam eu mattis vestibulum, nibh tellus lobortis diam, eleifend molestie eros justo eget nisl. Curabitur consequat purus nec elit posuere fringilla. Maecenas ultrices nisi a orci pulvinar eu laoreet ligula facilisis.",
+    "education": [
+      "School (2006)",
+      "High School (2008)",
+      "College/University (Present)"
+    ],
+    "achievements": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Vivamus ac ipsum justo, sit amet semper sem. ",
+      "Suspendisse posuere tortor eget nisi porttitor malesuada.",
+      "Vivamus convallis consectetur arcu, quis adipiscing est scelerisque sed.",
+      "Nunc bibendum massa ut erat pretium sagittis. ",
+      "Proin hendrerit mauris non justo sollicitudin sit amet convallis mauris scelerisque.",
+      "Nam ac magna mollis nulla elementum eleifend. ",
+      "Pellentesque eget lectus non nisi tincidunt convallis ut sit amet elit.",
+      "Suspendisse aliquam mi vel mi ultricies quis tempor lacus lacinia.",
+      "Donec sit amet tellus libero, sed dignissim odio."
+    ]
+  }
+}

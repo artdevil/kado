@@ -1,0 +1,47 @@
+{
+  "sampleguy1": {
+    "name": "Sample Guy 1",
+    "post": "CEO",
+    "stars": "4",
+    "key": "sampleguy1",
+    "bio": "Sample Introduction here, what the guy does, what are his responsibilities and etc.",
+    "imagelink": "data/members/sampleguy1.gif",
+    "thumb": "data/members/sampleguy1_thumb.gif"
+  },
+  "sampleguy2": {
+    "name": "Sample Guy 2",
+    "post": "Manager",
+    "stars": "3",
+    "key": "sampleguy2",
+    "bio": "Sample Introduction here, what the guy does, what are his responsibilities and etc.",
+    "imagelink": "data/members/sampleguy1.gif",
+    "thumb": "data/members/sampleguy1_thumb.gif"
+  },
+  "sampleguy3": {
+    "name": "Sample Guy 3",
+    "post": "Technical Advisor",
+    "stars": "2",
+    "key": "sampleguy3",
+    "bio": "Sample Introduction here, what the guy does, what are his responsibilities and etc.",
+    "imagelink": "data/members/sampleguy1.gif",
+    "thumb": "data/members/sampleguy1_thumb.gif"
+  },
+  "sampleguy4": {
+    "name": "Sample Guy 4",
+    "post": "HR Manager",
+    "stars": "1",
+    "key": "sampleguy4",
+    "bio": "Sample Introduction here, what the guy does, what are his responsibilities and etc.",
+    "imagelink": "data/members/sampleguy1.gif",
+    "thumb": "data/members/sampleguy1_thumb.gif"
+  },
+  "sampleguy5": {
+    "name": "Sample Guy 5",
+    "post": "Janitor",
+    "stars": "5",
+    "key": "sampleguy5",
+    "bio": "I keep everything clean. The company owes me.",
+    "imagelink": "data/members/sampleguy1.gif",
+    "thumb": "data/members/sampleguy1_thumb.gif"
+  }
+}
